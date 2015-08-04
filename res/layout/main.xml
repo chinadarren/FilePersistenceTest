@@ -2,10 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-        >
+              android:orientation="horizontal">
     <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
               android:id="@+id/edit"
               android:hint="Type something here"
+            />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="Android文件存储。文件存储的方式并不适合用于保存一些较为复杂的文本数据。"
             />
 </LinearLayout>
 
